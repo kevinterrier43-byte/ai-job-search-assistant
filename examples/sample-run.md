@@ -29,6 +29,8 @@ The agent found **47** open postings at Acme Analytics. **6** were plausible on 
 
 ## Step 3: Contacts
 
+The agent then goes to the company's LinkedIn profile and parses through people at the company to identify relevant targets for outreach. This determination is done using a criteria I established myself, based off of how deep I judge our connection to be.
+
 | Contact | Title | Why them | Connection |
 |---|---|---|---|
 | Jordan Example | Analytics Manager, Product | Likely hiring manager (**inferred** from team and title) | 2nd degree, shared school |
