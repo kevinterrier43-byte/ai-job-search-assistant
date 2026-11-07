@@ -34,6 +34,11 @@ I needed something that would:
 
 ## Architecture
 
+![Architecture: sources feed the agent workflow, drafts go through cross-model review and human approval before anything is sent](architecture/architecture.png)
+
+<details>
+<summary>View diagram source (Mermaid)</summary>
+
 ```mermaid
 flowchart TB
     subgraph Sources["Grounding sources (Google Drive / Sheets)"]
@@ -66,6 +71,8 @@ flowchart TB
     H -->|approved| X[Send / submit]
     H -->|rejected| L[Disagreement log] --> I[Revise instructions]
 ```
+
+</details>
 
 More detail in [`architecture/design-decisions.md`](architecture/design-decisions.md).
 
